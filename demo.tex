@@ -1,0 +1,46 @@
+\documentclass[10pt]{beamer}
+
+\usetheme[progressbar=frametitle]{metropolis}
+\usepackage{appendixnumberbeamer}
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+\definecolor{Purple}{RGB}{51, 0, 111}
+\definecolor{Orange}{RGB}{232, 211, 162}
+\setbeamercolor{normal text}{fg=black,bg=white}
+\setbeamercolor{palette primary}{fg=Orange, bg=Purple}
+\definecolor{Indigo}{rgb}{0.29, 0.0, 0.51}
+\definecolor{Jade}{rgb}{0.0, 0.66, 0.42}
+\setbeamercolor{alerted text}{fg=Orange}
+\setbeamercolor{frametitle}{bg=Purple, fg=Orange}
+\usepgfplotslibrary{dateplot}
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+\usepackage{tikz}
+\usepackage[printwatermark]{xwatermark}
+\usepackage[default,osfigures,scale=0.95]{opensans}
+\usepackage[T1]{fontenc}
+
+\title{My Awesome Presentation Title}
+\subtitle{\normalsize \textit{My awesome subtitle}}
+\date{}
+\author{Namey Name}
+\institute{University of Washington, Department of Awesome}
+\titlegraphic{\hfill\includegraphics[height=1cm]{uw_logo.png}}
+
+\begin{document}
+
+%title slide
+\maketitle
+
+%outline of presentation
+\begin{frame}{Presentation Overview}
+  \begin{itemize}
+    \item Motivations for the presentation
+    \item I got some data
+    \item This is how I used my data
+  \end{itemize}
+\end{frame}
+
+\end{document}
