@@ -1,2 +1,2 @@
 # uw-beamer
-Retooling of Metropolis beamer theme for UW
+Retooling of [Metropolis](https://github.com/matze/mtheme) beamer theme for UW
